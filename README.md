@@ -42,6 +42,7 @@ To run the RestaurantSite locally, follow these steps:
 6. Access the website in your browser at [http://localhost:8000](http://localhost:8000)
 
 ## API endpoints documentation and its implementation with screenshots
+### Vendor Profile Management:
 
 1. Sending POST request for generating Token for registered user. For user registration used django-admin portal.  [http://localhost:8000/apitoken/](http://localhost:8000/apitoken/)
   ![Generating Token for Registered User](Screenshots/Generating_token_for_registered_user.png)
@@ -51,9 +52,20 @@ To run the RestaurantSite locally, follow these steps:
    ![Fetching_vendors_list](Screenshots/Fetching_vendors_list.png)
 4. Sending GET request to list vendor by vendors ID. [http://localhost:8000/api/vendors/1/](http://localhost:8000/api/vendors/1)
    ![Fetching_vendor_by_ID](Screenshots/Fetching_vendor_by_ID.png)
+5. Sending PUT request to update the details like address. [http://localhost:8000/api/vendors/1/](http://localhost:8000/api/vendors/1/)
+   ![Updating_vendor_deatils](Screenshots/Updated_vendors_deatils.png)
+6. Sending DELETE request to delete the vendor by ID.  [http://localhost:8000/api/vendors/1/](http://localhost:8000/api/vendors/1/)
+   ![deleting_the_updated_vendor](Screenshots/deleting_the_updated_vendor.png)
 
+### Purchase Order Tracking:
+1. Sending POST request for creating purchase order. [http://localhost:8000/api/purchase-orders/](http://localhost:8000/api/purchase-orders/)
+   ![Creating_order](Screenshots/Creating_order.png)
+2. POST request sent and purchase order has been created. [http://localhost:8000/api/purchase-orders/](http://localhost:8000/api/purchase-orders/)
+   ![Order_created](Screenshots/Order_created.png)
+3. Sending the GET request and fetching the purchase orders list. [http://localhost:8000/api/purchase-orders/](http://localhost:8000/api/purchase-orders/)
+   ![](Screenshots/.png)
 
-
+   
 ## Contribution
 - Contributions were welcome! Fork the repository and submit pull requests.
 

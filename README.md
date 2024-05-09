@@ -63,9 +63,9 @@ To run the RestaurantSite locally, follow these steps:
 2. POST request sent and purchase order has been created. [http://localhost:8000/api/purchase-orders/](http://localhost:8000/api/purchase-orders/)
    ![Order_created](Screenshots/Order_created.png)
 3. Sending the GET request and fetching the purchase orders list. [http://localhost:8000/api/purchase-orders/](http://localhost:8000/api/purchase-orders/)
-   ![](Screenshots/.png)
-
-   
+   ![Fetching_purcahse_orders_list](Screenshots/Fetching_purcahse_orders_list.png)
+4. Sending GET request and fetching the purchase order by its ID.  [http://localhost:8000/api/purchase-orders/](http://localhost:8000/api/purchase-orders/)
+   ![Fetching_purchase_order_by_ID](Screenshots/Fetching_purchase_order_by_ID.png)   
 ## Contribution
 - Contributions were welcome! Fork the repository and submit pull requests.
 

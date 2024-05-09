@@ -49,7 +49,7 @@ To run the RestaurantSite locally, follow these steps:
 
 
 ## Contribution
-- Contributions were welcome! Forked the repository and submit pull requests.
+- Contributions were welcome! Fork the repository and submit pull requests.
 
 ## License
 - This project was licensed under the [MIT License](LICENSE).

@@ -68,7 +68,15 @@ To run the RestaurantSite locally, follow these steps:
    ![purchase_order_by_ID](Screenshots/purchase_order_by_ID.png)
 5. Sent PUT request and updated the items of previously fetched purchase order. [http://localhost:8000/api/purchase-orders/8/](http://localhost:8000/api/purchase-orders/8/)
    ![updated_previously_fetched_purcahse_order](Screenshots/updated_previously_fetched_purcahse_order.png)
-   
+
+### Vendor Performance Evaluation
+
+1. Sending GET request to fetch performance of vendor by its ID.  [http://localhost:8000/api/2/performance/](http://localhost:8000/api/2/performance/)
+   ![Fetching_performance_of_vendors](Screenshots/Fetching_performance_of_vendors.png)
+2. Sending PUT request to acknowledge and triggering the average response time. [http://localhost:8000/api/2/performance/](http://localhost:8000/api/2/performance/)
+   ![Acknowledging_the_completed_orders](Screenshots/Acknowledging_the_completed_orders.png)
+3. Sending GET request to fetch the acknowledged details of vendor and updated average response time. [http://localhost:8000/api/2/performance/](http://localhost:8000/api/2/performance/)
+   ![Fetching_vendors_performance_after_acknowledgement](Screenshots/Fetching_vendors_performance_after_acknowledgement.png)
 ## Contribution
 - Contributions were welcome! Fork the repository and submit pull requests.
 

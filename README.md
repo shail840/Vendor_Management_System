@@ -77,6 +77,23 @@ To run the RestaurantSite locally, follow these steps:
    ![Acknowledging_the_completed_orders](Screenshots/Acknowledging_the_completed_orders.png)
 3. Sending GET request to fetch the acknowledged details of vendor and updated average response time. [http://localhost:8000/api/2/performance/](http://localhost:8000/api/2/performance/)
    ![Fetching_vendors_performance_after_acknowledgement](Screenshots/Fetching_vendors_performance_after_acknowledgement.png)
+
+### Data stored in MySQL database
+1. Vendor's Data
+   ![Accessing_vendors_data_from_mysql_database](Screenshots/Accessing_vendors_data_from_mysql_database.png)
+2. Purchase Orders Data
+   ![Accessing_Purchase_order_data_from_mysql_database](Screenshots/Accessing_Purchase_order_data_from_mysql_database.png)
+3. Historical Performance Data
+   ![Accessing_Historical_performance_data_from_mysql_database](Screenshots/Accessing_Historical_performance_data_from_mysql_database.png)
+
+
+### Django-admin portal
+1. Vendor's Data
+   ![Django-Admin-Vendors](Screenshots/Django-Admin-Vendors.png)
+2. Purchase Orders Data
+![Django_admin_Purchase_orders](Screenshots/Django_admin_Purchase_orders.png)
+3. Historical Performance Data
+![Django_admin_Historical_performance](Screenshots/Django_admin_Historical_performance.png)
 ## Contribution
 - Contributions were welcome! Fork the repository and submit pull requests.
 

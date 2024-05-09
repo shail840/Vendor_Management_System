@@ -1,7 +1,7 @@
 # Vendor Management System with Performance Metrics
 
 ## Objective
-The Vendor Management System was a Django-based application integrated with Django REST Framework. Its primary aim was to facilitate efficient vendor management, purchase order tracking, and vendor performance evaluation.
+The Vendor Management System is a Django-based application integrated with Django REST Framework. Its primary aim was to facilitate efficient vendor management, purchase order tracking, and vendor performance evaluation.
 
 ## Installation
 
@@ -40,6 +40,7 @@ To run the RestaurantSite locally, follow these steps:
     ```
 
 6. Access the website in your browser at [http://localhost:8000](http://localhost:8000)
+7. For testing the API tool used is Insomnia.
 
 ## API endpoints documentation and its implementation with screenshots
 ### Vendor Profile Management:
@@ -101,6 +102,6 @@ To run the RestaurantSite locally, follow these steps:
 - This project was licensed under the [MIT License](LICENSE).
 
 ## Author
-- [Shailednra Kumar](https://github.com/shail840)
+- [Shailendra Kumar](https://github.com/shail840)
 
 Feel free to customize this README to fit your project's specific needs. Let me know if you need any further assistance!

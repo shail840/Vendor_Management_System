@@ -96,7 +96,7 @@ To run the RestaurantSite locally, follow these steps:
 3. Historical Performance Data
 ![Django_admin_Historical_performance](Screenshots/Django_admin_Historical_performance.png)
 ## Contribution
-- Contributions were welcome! Fork the repository and submit pull requests.
+- Contributions are welcome! Fork the repository and submit pull requests.
 
 ## License
 - This project was licensed under the [MIT License](LICENSE).
